@@ -1,5 +1,5 @@
 require('dotenv').config();//dotenv package loads environment variables from your .env file into process.env .
-let express = require('express');//require('express') function loads the Express module & express variable now holds a reference to this module
+let express = require('express');//loads the Express module into express variable
 let app = express();//creates an instance of an Express app that u'll use to define routes and configure your web app.
 
 app.use((req, res, next) => {
